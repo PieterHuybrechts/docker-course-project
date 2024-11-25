@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class K8sDemoApplication {
+public class DockerDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(K8sDemoApplication.class, args);
+        SpringApplication.run(DockerDemoApplication.class, args);
     }
 
     @GetMapping("/")
